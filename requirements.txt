@@ -3,4 +3,4 @@ opencv-python-headless            == 4.1.2.30
 numpy                            
 matplotlib                        == 3.3.2
 easyocr                           == 1.4.1
-Pillow                            == 8.0.1
+Pillow                            
