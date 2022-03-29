@@ -33,7 +33,7 @@ def image_input():
 
         print(hist)
         st.line_chart(hist)
-        reader = easyocr.Reader(['ch_sim','en'],gpu=False,download_enabled=False) # this needs to run only once to load the model into memory
+        reader = easyocr.Reader(['ch_sim','en'],gpu=False,download_enabled=True) # this needs to run only once to load the model into memory
         with st.spinner('Wait for it...'):
             result = reader.readtext(np.array(content),detail = 0)
 
