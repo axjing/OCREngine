@@ -1,3 +1,5 @@
-libglvnd-glx
+libgl1-mesa-glx
+libcairo2
 freeglut3-dev
 libgtk2.0-dev
+libglvnd-glx
