@@ -2,4 +2,5 @@ opencv-python                     == 4.5.3.56
 opencv-python-headless            == 4.1.2.30
 numpy                            
 matplotlib
+PIL
 easyocr
