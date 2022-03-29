@@ -2,5 +2,4 @@ opencv-python                     == 4.5.3.56
 opencv-python-headless            == 4.1.2.30
 numpy                            
 matplotlib                        == 3.3.2
-easyocr                           == 1.4.1
-Pillow                            
+easyocr                           == 1.4.1                         
