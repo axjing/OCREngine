@@ -1,7 +1,6 @@
 opencv-python                     == 4.5.3.56
 opencv-python-headless            == 4.1.2.30
-numpy                             == 1.22.3
-numpy-quaternion                  == 2022.2.10.14.20.39
+numpy                            
 matplotlib                        == 3.3.2
 easyocr                           == 1.4.1
 Pillow                            == 8.0.1
