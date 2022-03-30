@@ -18,7 +18,7 @@ st.set_page_config(
 st.title('Anders OCR System')
 st.write("小应用：准确高效的完成OCR识别任务，支持中、英、日、韩...等语言")
 st.text("手机访问请把该链接复制到手机浏览器使用")
-@st.cache(suppress_st_warning=True)  
+
 def image_input():
     if st.sidebar.checkbox('Upload'):
         content_file = st.sidebar.file_uploader("Choose a Content  Image", type=["png", "jpg"])
