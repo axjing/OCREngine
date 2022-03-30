@@ -6,7 +6,7 @@ import numpy as np
 
 st.set_page_config(
     page_title="Anders OCR System",
-    page_icon="random",
+    page_icon=":smile:",
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
