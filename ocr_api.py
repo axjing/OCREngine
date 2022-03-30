@@ -6,7 +6,7 @@ import numpy as np
 
 st.set_page_config(
     page_title="Anders OCR System",
-    page_icon=":smile:",
+    page_icon=":pencil:",
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
@@ -43,8 +43,8 @@ def image_input():
             for i in result:
                 st.write(i)
                 s+=i+'\n'
-            st.info(s)
             st.success('OCR is a success message!')
+            st.info(s)
         st.write("Time:{:.2f}".format(time.time()-start))
     else:
         st.warning("Upload an Image OR Untick the Upload Button")
